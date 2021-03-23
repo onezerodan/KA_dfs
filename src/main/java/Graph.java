@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Graph {
 
-    static String filename = "test.txt";
+    static String filename = "input.txt";
     static List<List<Integer>> graph = getTops();
     static Integer[] color = new Integer[getN() + 1];
     static boolean twoHalfs = true;
